@@ -11,6 +11,13 @@ int main(void){
              board[i][j] = '.';
         }
     }
+    // 오목판 출력
+    for(int i = 0; i < SIZE; i++){
+        for(int j = 0; j < SIZE; j++){
+            printf("%c ", board[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 
